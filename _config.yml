@@ -228,37 +228,12 @@ kramdown:
       start_line: 1
 
 # Includes & excludes
-include: ["_pages"]
-exclude:
-  - AGENTS.md
-  - al-folio-upgrade-report.md
-  - bin/
-  - CLAUDE.md
-  - Dockerfile
-  - docker-compose.yml
-  - docker-compose-slim.yml
-  - docs/
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE
-  - lighthouse_results/
-  - package.json
-  - package-lock.json
-  - _pages/about_einstein.md
-  - purgecss.config.js
-  - README.md
-  - readme_preview/
-  - gems/
-  - migrations/
-  - vendor
-  - _pages/teaching.md
-  - _pages/repositories.md
-  - _pages/blog.md
-  - _pages/books.md
-  - _pages/profiles.md
-keep_files:
-  - CNAME
-  - .nojekyll
+include:
+  - _pages/about.md
+  - _pages/publications.md
+  - _pages/projects.md
+  - _pages/cv.md
+  
 
 # Use al_folio_core as the theme runtime; local files can still override theme files.
 theme: al_folio_core
